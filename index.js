@@ -26,22 +26,12 @@ console.log(letter)
 })
 
 
-function greeting(){
-
-    let count = 1000;
-
-    for(let user of userfinder){
-        setTimeout(function (){console.log(`Hi, ${user.name}`)}, count);
-        count += 1000;
-    }
-}
-greeting();
 
 
-// function greetusers(){
+function greetusers(){
    
-//     console.log(`hello , ${user.name}`)
-// }
-// greetusers()
+    console.log(`hello , ${user.name}`)
+}
+greetusers()
 
-// let greet = setTimeout(greetusers,2000);
+let greet = setTimeout(greetusers,2000);
